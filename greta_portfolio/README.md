@@ -1,2 +1,0 @@
-# greta_portfolio
- 
