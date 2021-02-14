@@ -57,12 +57,13 @@ links.map(link => {
 
 new TypeIt("#type1", {
   speed: 120,
-  loop: true,
+  //loop: true,
   waitUntilVisible: true,
 })
-  .type("Developer", { delay: 400 })
+  .pause(9500)
+  .type("Greta Robichaud", { delay: 1400 })
   .pause(500)
-  .delete(9)
+  //.delete(9)
   .go();
 
 
@@ -88,7 +89,7 @@ gsap.from(".icons span", {
   stagger: 0.2,
 });
 
-const glide = document.querySelector(".glide");
+/*const glide = document.querySelector(".glide");
 if (glide)
   new Glide(glide, {
     type: "carousel",
@@ -107,4 +108,4 @@ if (glide)
         perView: 1,
       },
     },
-  }).mount();
+  }).mount();*/
