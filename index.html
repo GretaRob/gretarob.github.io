@@ -117,18 +117,24 @@
       </div>
 
       <div class="services-center container">
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="gif-click" src="images/todo.gif" />
+          </div>
+        </div>
         <div class="service first" data-aos="fade-down" data-aos-duration="2000">
           <!--<span><i class="fab fa-accusoft"></i></span>-->
           <h2>Todo List</h2>
           <p>
             A simple application written in <strong>Python</strong> and <strong>Django</strong>.
           </p>
-          <img id="gif-click" src="https://media.giphy.com/media/3o8dp3TMpRhwcpgc7e/giphy.gif" />
-          <button class="button" onclick="myFunction()">Demo</button>
+          <button id="myBtn" class="button">Demo</button>
+          
         </div>
 
         <div class="service 2" data-aos="fade-up" data-aos-duration="2000">
-          <span><i class="fas fa-chart-line"></i></span>
+          <!--<span><i class="fas fa-chart-line"></i></span>-->
           <h2>Cooking Recipe</h2>
           <p>
             A recipe search website built using <strong>API, Python and Django</strongAPI>.
@@ -136,7 +142,7 @@
         </div>
 
         <div class="service 3" data-aos="fade-down" data-aos-duration="2000">
-          <span><i class="fas fa-blender-phone"></i></span>
+          <!--<span><i class="fas fa-blender-phone"></i></span>-->
           <h2>Photo Sharer</h2>
           <p>
             A <strong>Django</strong> application that allows registered users to create a profile and share pictures.
