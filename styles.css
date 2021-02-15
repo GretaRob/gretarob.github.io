@@ -57,7 +57,8 @@ li {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: #000;
+  background: url(images/background.jpg);
+  background-size: 1600px;
   z-index: 1;
 }
 
@@ -104,7 +105,7 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #dd9a05;
+  background-color: rgb(136, 134, 146);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -122,7 +123,7 @@ li {
 
 .logo h1 span {
   font-weight: bold;
-  color: #dd9a05;
+  color: rgb(61, 11, 41);
 }
 
 .nav-list {
@@ -248,7 +249,7 @@ li {
   font-size: 2.5rem;
 }
 .hero h1 span {
-  color: #dd9a05;
+  color: rgb(136, 134, 146);
   text-decoration: underline;
 }
 
@@ -443,11 +444,11 @@ a.btn:active {
 
 /* Services */
 .theme {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .theme .title {
-  color: #fff;
+  color: rgba(3, 38, 77, 255);
 }
 
 .services-center {
@@ -458,18 +459,23 @@ a.btn:active {
 
 .service {
   color: #fff;
-  background-color: #111;
+  background-color: rgba(3, 38, 77, 255);
   padding: 2rem;
   text-align: center;
   border-radius: 1rem;
   transition: all 300ms ease-in-out;
 }
 
-.service span {
+/*.service span {
   color: #dd9a05;
   font-size: 4rem;
   transition: all 300ms ease-in-out;
 }
+
+.first {
+  background: url(images/todo.jpg);
+  background-size: 300px 100px;
+}*/
 
 .service h2 {
   font-size: 1.8rem;
@@ -489,7 +495,31 @@ a.btn:active {
   color: #fff;
 }
 
+#gif-click {
+  display: none;
+  position: relative;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #dd9a05;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 2px solid #dd9a05;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-in-out;
+}
+
 /* Skills */
+
+.skills {
+  background-color: rgb(4, 33, 67);
+}
+
+.skills .title {
+  color: #fff;
+}
 
 .skills-box:not(:last-child) {
   margin-bottom: 2rem;
@@ -563,7 +593,7 @@ a.btn:active {
 
 /* Contact */
 .contact-center {
-  color: #fff;
+  color: #000;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
