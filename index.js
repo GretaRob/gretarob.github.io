@@ -60,7 +60,7 @@ new TypeIt("#type1", {
   //loop: true,
   waitUntilVisible: true,
 })
-  .pause(9500)
+  .pause(2500)
   .type("Greta Robichaud", { delay: 1400 })
   .pause(500)
   //.delete(9)
@@ -72,8 +72,8 @@ gsap.from(".hamburger", { opacity: 0, duration: 1, delay: 1, x: 20 });
 gsap.from(".banner", { opacity: 0, duration: 1, delay: 1.5, x: -200 });
 gsap.from(".hero h3", { opacity: 0, duration: 1, delay: 2, y: -50 });
 gsap.from(".hero h1", { opacity: 0, duration: 1, delay: 2.5, y: -45 });
-gsap.from(".hero h4", { opacity: 0, duration: 1, delay: 3, y: -30 });
-gsap.from(".hero a", { opacity: 0, duration: 1, delay: 3.5, y: 50 });
+gsap.from(".hero h4", { opacity: 0, duration: 1, delay: 4, y: -30 });
+gsap.from(".hero a", { opacity: 0, duration: 1, delay: 4.5, y: -8 });
 gsap.from(".nav-item", {
   opacity: 0,
   duration: 1,
@@ -119,30 +119,61 @@ if (glide)
       x.style.display = "none";
     }
   }*/
-
+//first project gif
   // Get the modal
-var modal = document.getElementById("myModal");
+var modal1 = document.getElementById("myModal1");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn1 = document.getElementById("myBtn1");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+btn1.onclick = function() {
+  modal1.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+span1.onclick = function() {
+  modal1.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal1) {
+    modal1.style.display = "none";
   }
 }
-  
+//second project gif
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("myBtn2");
+var span2 = document.getElementsByClassName("close2")[0];
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+
+//third project gif
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("myBtn3");
+var span3 = document.getElementsByClassName("close3")[0];
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+    

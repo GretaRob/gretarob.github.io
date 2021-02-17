@@ -49,10 +49,7 @@
                 <a href="#home" class="nav-link scroll-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-link scroll-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services" class="nav-link scroll-link">Services</a>
+                <a href="#projects" class="nav-link scroll-link">Projects</a>
               </li>
               <li class="nav-item">
                 <a href="#skills" class="nav-link scroll-link">Skills</a>
@@ -80,9 +77,8 @@
       <!--<img class="banner" src="./images/bg.png" alt="" />-->
   
       <div class="icons">
-        <span><i class="fab fa-facebook-f"></i></span>
-        <span><i class="fab fa-instagram"></i></span>
-        <span><i class="fab fa-twitter"></i></span>
+        <span><i class="fab fa-linkedin"></i></span>
+        <span onclick="window.location.href='https://github.com/GretaRob'"><i class="fab fa-github"></i></span>
       </div>
     </header>
 
@@ -111,42 +107,58 @@
       </div>
     </section>-->
     <!-- Projects -->
-    <section class="section theme" id="services">
+    <section class="section theme" id="projects">
       <div class="title">
         <h1>My Projects</h1>
       </div>
 
       <div class="services-center container">
-        <div id="myModal" class="modal">
+        <div id="myModal1" class="modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close1">&times;</span>
             <img id="gif-click" src="images/todo.gif" />
           </div>
         </div>
-        <div class="service first" data-aos="fade-down" data-aos-duration="2000">
+        <div id="myModal2" class="modal">
+          <div class="modal-content">
+            <span class="close2">&times;</span>
+            <img id="gif-click" src="images/cookingrecipe.gif" />
+          </div>
+        </div>
+        <div id="myModal3" class="modal">
+          <div class="modal-content">
+            <span class="close3">&times;</span>
+            <img id="gif-click" src="images/photosharer.gif" />
+          </div>
+        </div>
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
           <!--<span><i class="fab fa-accusoft"></i></span>-->
           <h2>Todo List</h2>
           <p>
             A simple application written in <strong>Python</strong> and <strong>Django</strong>.
           </p>
-          <button id="myBtn" class="button">Demo</button>
-          
+          <button id="myBtn1" class="button">Demo</button>
+          <button class="button" onclick="document.location='https://github.com/GretaRob/Todo_List_Django'">Source Code</button>
         </div>
 
-        <div class="service 2" data-aos="fade-up" data-aos-duration="2000">
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
           <!--<span><i class="fas fa-chart-line"></i></span>-->
           <h2>Cooking Recipe</h2>
           <p>
             A recipe search website built using <strong>API, Python and Django</strongAPI>.
           </p>
+          <button id="myBtn2" class="button">Demo</button>
+          <button class="button" onclick="document.location='https://github.com/GretaRob/Cooking_Recipe_Django'">Source Code</button>
         </div>
 
-        <div class="service 3" data-aos="fade-down" data-aos-duration="2000">
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
           <!--<span><i class="fas fa-blender-phone"></i></span>-->
           <h2>Photo Sharer</h2>
           <p>
             A <strong>Django</strong> application that allows registered users to create a profile and share pictures.
           </p>
+          <button id="myBtn3" class="button">Demo</button>
+          <button class="button" onclick="document.location='https://github.com/GretaRob/Photo_Sharer_Django'">Source Code</button>
         </div>
       </div>
     </section>
@@ -191,8 +203,20 @@
       <div class="title">
         <h1>My Skills</h1>
       </div>
-
-      <div class="skills-center container">
+      <div class="skillicons">
+        <div class="main">
+          <span><i class="fab fa-html5"></i></span>
+          <span><i class="fab fa-css3-alt"></i></span>
+          <span><i class="fab fa-python"></i></span>
+          <img id="django" src="images/djangoicon.png"/>
+        </div>
+        <div class="secondary">
+          <span><i class="fab fa-js-square"></i></span>
+          <span><i class="fab fa-react"></i></span>
+          <img id="django" src="images/inkscapefinal.png"/>
+        </div>
+      </div>
+      <!--<div class="skills-center container">
         <div class="skills-left" data-aos="fade-right" data-aos-duration="2000">
           <div class="skills-box">
             <h4>HTML5</h4>
@@ -244,7 +268,7 @@
           </p>
           <a href="#" class="btn">Read more</a>
         </div>
-      </div>
+      </div>-->
     </section>
 
     <!-- Contact -->
@@ -255,13 +279,7 @@
 
       <div class="contact-center container">
         <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
-          <h2>Get in Touch</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            praesentium quibusdam ratione, cum ducimus minus iure saepe ipsum
-            repudiandae. Cum adipisci cumque dicta suscipit fuga aliquid
-            blanditiis quo quia vitae
-          </p>
+          <h2>Let's Get in Touch</h2>
           <div>
             <span class="icon"><i class="fas fa-user"></i></span>
             <span class="content">
@@ -273,7 +291,7 @@
             <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="content">
               <h3>Address</h3>
-              <span>Vietnam</span>
+              <span>Vietnam, Ho Chi Minh City</span>
             </span>
           </div>
 
