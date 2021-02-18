@@ -591,6 +591,7 @@ a.btn:active {
 .secondary img {
   height: 50px;
   padding-left: 30px;
+  padding-right: 30px;
 }
 /*
 .skills-box:not(:last-child) {
