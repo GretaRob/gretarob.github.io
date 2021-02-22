@@ -89,36 +89,6 @@ gsap.from(".icons span", {
   stagger: 0.2,
 });
 
-/*const glide = document.querySelector(".glide");
-if (glide)
-  new Glide(glide, {
-    type: "carousel",
-    startAt: 0,
-    perView: 3,
-    gap: 30,
-    hoverpause: true,
-    autoplay: 2000,
-    animationDuration: 800,
-    animationTimingFunc: "cubic-bezier(0.165, 0.840, 0.440, 1.000)",
-    breakpoints: {
-      996: {
-        perView: 2,
-      },
-      768: {
-        perView: 1,
-      },
-    },
-  }).mount();*/
-
-/*
-  function myFunction() {
-    var x = document.getElementById("gif-click");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }*/
 //first project gif
   // Get the modal
 var modal1 = document.getElementById("myModal1");

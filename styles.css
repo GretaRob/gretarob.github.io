@@ -331,7 +331,7 @@ li {
   padding: 5rem 0 7rem 0;
   overflow-x: hidden;
 }
-
+/*
 .about {
   margin-top: 5rem;
 }
@@ -341,7 +341,7 @@ li {
   grid-template-columns: 1fr 1.5fr;
   gap: 3rem 5rem;
 }
-
+*/
 .title {
   margin: 4rem 0 7rem 0;
   text-align: center;
@@ -365,7 +365,7 @@ li {
   height: 0.4rem;
   z-index: 1;
 }
-
+/*
 .left img {
   height: 40rem;
   max-width: 35rem;
@@ -385,8 +385,9 @@ li {
 .right h1 span {
   color: #dd9a05;
 }
-
-a.btn {
+*/
+a.btn,
+.button {
   display: inline-block;
   padding: 1rem 2rem;
   background: #dd9a05;
@@ -403,7 +404,14 @@ a.btn:hover {
   color: inherit;
 }
 
-a.btn:active {
+.button:hover {
+  transform: translateY(-3px);
+  background-color: rgb(4, 33, 67);
+  color: inherit;
+}
+
+a.btn:active,
+.button:active {
   transform: translateY(0px);
 }
 
@@ -415,8 +423,7 @@ a.btn:active {
   .right p {
     font-size: 1.5rem;
   }
-
-  a.btn {
+  */ a.btn {
     padding: 0.7rem 1.8rem;
   }
 
@@ -425,7 +432,7 @@ a.btn:active {
     max-width: 25rem;
   }
 }
-
+/*
 @media only screen and (max-width: 768px) {
   .about-center {
     grid-template-columns: 1fr;
@@ -440,7 +447,7 @@ a.btn:active {
     height: 40rem;
     max-width: 90%;
   }
-}
+}*/
 
 /* Projects */
 .theme {
