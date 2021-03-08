@@ -593,6 +593,7 @@ a.btn:active,
 
 .github:hover {
   color: rgb(4, 33, 67);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
