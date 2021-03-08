@@ -365,27 +365,7 @@ li {
   height: 0.4rem;
   z-index: 1;
 }
-/*
-.left img {
-  height: 40rem;
-  max-width: 35rem;
-  object-fit: cover;
-}
 
-.right h1 {
-  margin-bottom: 2rem;
-}
-
-.right p {
-  line-height: 2;
-  margin-bottom: 2rem;
-  color: #333;
-}
-
-.right h1 span {
-  color: #dd9a05;
-}
-*/
 a.btn,
 .button {
   display: inline-block;
@@ -432,22 +412,6 @@ a.btn:active,
     max-width: 25rem;
   }
 }
-/*
-@media only screen and (max-width: 768px) {
-  .about-center {
-    grid-template-columns: 1fr;
-    gap: 3rem 0rem;
-  }
-
-  .left {
-    text-align: center;
-  }
-
-  .left img {
-    height: 40rem;
-    max-width: 90%;
-  }
-}*/
 
 /* Projects */
 .theme {
@@ -473,17 +437,6 @@ a.btn:active,
   transition: all 300ms ease-in-out;
 }
 
-/*.service span {
-  color: #dd9a05;
-  font-size: 4rem;
-  transition: all 300ms ease-in-out;
-}
-
-.first {
-  background: url(images/todo.jpg);
-  background-size: 300px 100px;
-}*/
-
 .service h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -492,7 +445,10 @@ a.btn:active,
 .service p {
   font-size: 1.6rem;
   color: #f1f1f1;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .service p strong {
@@ -600,77 +556,7 @@ a.btn:active,
   padding-left: 30px;
   padding-right: 30px;
 }
-/*
-.skills-box:not(:last-child) {
-  margin-bottom: 2rem;
-}
 
-.skills-box h4 {
-  font-size: 1.8rem;
-  color: #888;
-  font-size: 500;
-}
-
-.skills-box .skills-ilt {
-  width: 100%;
-  position: relative;
-  height: 0.4rem;
-  background-color: #ccc;
-  border-radius: 0.5rem;
-}
-
-.skills-box .skills-bar {
-  background-color: #dd9a05;
-  height: 0.4rem;
-}
-
-.skills-box .html {
-  width: 95%;
-}
-
-.skills-box .css {
-  width: 85%;
-}
-
-.skills-box .javascript {
-  width: 90%;
-}
-
-.skills-box .nodejs {
-  width: 80%;
-}
-
-.skills-box .mongodb {
-  width: 95%;
-}
-
-.skills-box span {
-  position: absolute;
-  bottom: 10%;
-  right: 0;
-  font-size: 1.4rem;
-}
-
-.skills-center {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6rem;
-}
-
-.right h3 {
-  margin-bottom: 1rem;
-}
-
-.right p {
-  margin-bottom: 2rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .skills-center {
-    grid-template-columns: 1fr;
-  }
-}
-*/
 /* Contact */
 .contact-center {
   color: #000;
@@ -703,6 +589,10 @@ a.btn:active,
   margin-right: 2rem;
   font-size: 2.3rem;
   color: #dd9a05;
+}
+
+.github:hover {
+  color: rgb(4, 33, 67);
 }
 
 @media only screen and (max-width: 768px) {
