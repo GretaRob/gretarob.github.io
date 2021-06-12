@@ -426,12 +426,14 @@ a.btn:active,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .service {
   color: #fff;
   background-color: rgba(3, 38, 77, 255);
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   border-radius: 1rem;
   transition: all 300ms ease-in-out;
@@ -440,6 +442,7 @@ a.btn:active,
 .service h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .service p {
@@ -465,7 +468,7 @@ a.btn:active,
 
 .button {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background: #dd9a05;
   color: #fff;
   border-radius: 0.5rem;
@@ -497,6 +500,7 @@ a.btn:active,
 }
 
 /* The Close Button */
+.close0,
 .close1,
 .close2,
 .close3 {
@@ -506,6 +510,7 @@ a.btn:active,
   font-weight: bold;
 }
 
+.close0:hover,
 .close1:hover,
 .close1:focus,
 .close2:hover,
