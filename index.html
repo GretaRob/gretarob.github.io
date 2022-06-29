@@ -81,6 +81,12 @@
       </div>
 
       <div class="services-center container">
+        <div id="myModal3" class="modal">
+          <div class="modal-content">
+            <span class="close3">&times;</span>
+            <img id="gif-click" src="images/storyteller.gif" />
+          </div>
+        </div>
         <div id="myModal0" class="modal">
           <div class="modal-content">
             <span class="close0">&times;</span>
@@ -99,12 +105,17 @@
             <img id="gif-click" src="images/photosharer.gif" />
           </div>
         </div>
-        <div id="myModal3" class="modal">
-          <div class="modal-content">
-            <span class="close3">&times;</span>
-            <img id="gif-click" src="images/cookingrecipe.gif" />
-          </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <h2>StoryTeller</h2>
+          <p>
+            A place to create stories and collect your favorite ones. It's written in <strong>Javascript</strong> with <strong>React</strong> library. 
+          </p>
+          <button id="myBtn3" class="button">Demo</button>
+          <button class="button" onclick="document.location='https://github.com/GretaRob/StoryTeller'">Source Code</button>
+          <button class="button" onclick="document.location='https://storytellernotes.netlify.app/'">Live</button>
         </div>
+
         <div class="service" data-aos="fade-up" data-aos-duration="2000">
           <h2>Buzzer</h2>
           <p>
@@ -133,16 +144,6 @@
           <button id="myBtn2" class="button">Demo</button>
           <button class="button" onclick="document.location='https://github.com/GretaRob/Photo_Sharer_Django'">Source Code</button>
           <button class="button" onclick="document.location='https://photosharer.herokuapp.com/'">Live</button>
-        </div>
-
-        <div class="service" data-aos="fade-down" data-aos-duration="2000">
-          <h2>Cooking Recipe</h2>
-          <p>
-            A recipe search website built using <strong>API, Python</strong> and <strong>Django</strong>. A user can look for a recipe by typing an ingredient.
-          </p>
-          <button id="myBtn3" class="button">Demo</button>
-          <button class="button" onclick="document.location='https://github.com/GretaRob/Cooking_Recipe_Django'">Source Code</button>
-          <button class="button" onclick="document.location='https://cookingrecipeproject.herokuapp.com/'">Live</button>
         </div>
       </div>
     </section>
