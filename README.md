@@ -4,7 +4,7 @@ A responsive portfolio webiste.
 
 ## Project Description
 
-A recipe search website built using Edamam API. A user can look for a recipe by typing an ingredient or dish. With a click on a chosen recipe a user will be redirected to a full description.
+A webiste to display some of my projects and skills.
 
 *****
 
